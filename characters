@@ -1,0 +1,82 @@
+```python
+class Player:
+    def __init__(self):
+        self.name = "Shichika Yasuri"
+        self.hp = 100
+        self.dmg = 10
+        self.speed = 1
+        self.block = 3
+        
+class FinalBoss:
+    def __init__(self):
+        self.name = "Emonzaemon Soda"
+        self.hp = 500
+        self.dmg = 20
+        
+class Boss1:
+    def __init__(self):
+        self.name = "Hannyamaru"
+        self.hp = 
+        self.dmg = 
+        
+class Boss2:
+    def __init__(self):
+        self.name = "Oniyadori Furachi"
+        self.hp = 
+        self.dmg = 
+        
+class Boss3:
+    def __init__(self):
+        self.name = "Tomoe Akatsuki"
+        self.hp = 
+        self.dmg = 
+       
+class Boss4:
+    def __init__(self):
+        self.name = "Fugi Matsuaki"
+        self.hp = 
+        self.dmg = 
+        
+class Boss5:
+    def __init__(self):
+        self.name = "Iga Kairo"
+        self.hp = 
+        self.dmg = 
+   
+class Boss6:
+    def __init__(self):
+        self.name = "Maniwa Boufura"
+        self.hp = 
+        self.dmg = 
+
+class Boss7:
+    def __init__(self):
+        self.name = "Uron"
+        self.hp = 
+        self.dmg = 
+
+class Boss8:
+    def __init__(self):
+        self.name = "Haiga Ou"
+        self.hp = 
+        self.dmg = 
+
+class Boss9:
+    def __init__(self):
+        self.name = "Sumigaoka Kokubo"
+        self.hp = 
+        self.dmg = 
+        
+class Boss10:
+    def __init__(self):
+        self.name = "Saraba Kousha"
+        self.hp = 
+        self.dmg = 
+        
+class Boss11:
+    def __init__(self):
+        self.name = "Rogiri Bangai"
+        self.hp = 
+        self.dmg = 
+
+```
