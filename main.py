@@ -6,6 +6,8 @@ python3 -m pip install pygame
 import pygame
 from sys import exit  
 
+character_surface = pygame.image.load('graphics/
+
 class Game:
     def __init__(self):
         pygame.init()
