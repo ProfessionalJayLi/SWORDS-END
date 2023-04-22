@@ -7,7 +7,7 @@ import pygame
 from sys import exit  
 
 character_surface = pygame.image.load('graphics/pixil-frame-0.png')
-floor_surface = pygame.image.load('
+floor_surface = pygame.image.load('graphics/011HelkPixel-WoodPixel.webp')
 
 class Game:
     def __init__(self):
