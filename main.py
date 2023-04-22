@@ -8,7 +8,7 @@ from sys import exit
 
 character_surface = pygame.image.load('graphics/pixil-frame-0.png')
 floor_surface = pygame.image.load('graphics/011HelkPixel-WoodPixel.webp')
-enemy_surface = 
+enemy_surface = pygame.image.load('graphics/pixilart-drawing.png')
 
 class Game:
     def __init__(self):
