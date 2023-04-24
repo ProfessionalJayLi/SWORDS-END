@@ -9,6 +9,7 @@ from sys import exit
 character_surface = pygame.image.load('graphics/pixil-frame-0.png')
 floor_surface = pygame.image.load('graphics/011HelkPixel-WoodPixel.webp')
 enemy_surface = pygame.image.load('graphics/pixilart-drawing.png')
+main_surface = pygame.image.load('graphics/desktop-wallpaper-katanagatari-anime-hq-katanagatari.jpg')
 
 class Game:
     def __init__(self):
