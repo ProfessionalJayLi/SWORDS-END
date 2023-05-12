@@ -7,3 +7,7 @@ for event in pygame.event.get():
       pass
     if event.type == pygame.KEYRIGHT or event.type == pygame.K_d:
       pass
+    if event.type == pygame.K_f or event.type == pygame.K_z:
+      pass
+    if event.type == pygame.K_x or event.type == pygame.K_j:
+      pass
