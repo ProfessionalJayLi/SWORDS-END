@@ -11,7 +11,7 @@ class Player(pygame.sprite.Sprite):
 ```
 
 '''
-class Player:
+class layer:
     def __init__(self):
         self.name = "Shichika Yasuri"
         self.hp = 100
