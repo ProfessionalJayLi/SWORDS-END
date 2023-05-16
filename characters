@@ -1,4 +1,16 @@
-```python
+``` python
+import pygame
+from settings import *
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+        super().init(groups)
+        self.image = pygame.image.load('graphics/yasurifront.png')
+        self.rect = self.image.get_rect(topleft = pos)
+                     
+```
+
+'''
 class Player:
     def __init__(self):
         self.name = "Shichika Yasuri"
@@ -78,5 +90,5 @@ class Boss11:
         self.name = "Rogiri Bangai"
         self.hp = 400
         self.dmg = 19
+'''
 
-```
