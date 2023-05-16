@@ -7,6 +7,11 @@ class Player(pygame.sprite.Sprite):
         super().init(groups)
         self.image = pygame.image.load('graphics/yasurifront.png')
         self.rect = self.image.get_rect(topleft = pos)
+        
+        self.direction = pygame.math.Vector2():
+            
+    def input(self):
+        keys = pygame.key
                      
 ```
 
