@@ -26,5 +26,6 @@ class Level:
         
     def run(self):
         self.visible_sprites.draw(self.display_surface)
+        self.visible_sprites.update()
         
 ```
